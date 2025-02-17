@@ -1,0 +1,19 @@
+#sharebar-networks {
+    max-width: 400px;
+}
+#sharebar-networks .ui-sortable-handle {
+    border: 1px solid rgba(0,0,0,.5);
+    background-color: rgba(0,0,0,.10);
+    padding: 2em;
+    cursor: move;
+}
+
+#sharebar-networks .ui-sortable-helper {
+    box-shadow: 1px 1px 2px rgba(0,0,0, .25);
+}
+
+#sharebar-networks .ui-state-highlight {
+    background-color: yellow;
+    height: 1.25em;
+    padding: 2em;
+}

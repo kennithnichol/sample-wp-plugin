@@ -1,0 +1,67 @@
+.socialsharebar {
+    font-size: 1.5em;
+    line-height: 1;
+}
+.socialsharebar a {
+    text-decoration: none;
+    color: white !important;
+    display: inline-block;
+    margin: 0;
+    padding: .5em;
+    line-height: 1;
+    margin-right: .5em;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.socialsharebar a:last-child {
+    margin-right: 0;
+}
+
+.socialsharebar a:hover,
+.socialsharebar a:focus {
+    color: white !important;
+    transform: translate(-1px, -1px);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);
+    transition: transform .3s, box-shadow .25s;
+}
+.socialsharebar .socialsharebar-icon svg {
+    fill: currentColor;
+    height: 1em;
+    width: 1em;
+    display: block;
+}
+
+.socialsharebar a.socialsharebar-link-small {
+    font-size: 0.75em;
+}
+.socialsharebar a.socialsharebar-link-medium {
+    font-size: 1em;
+}
+.socialsharebar a.socialsharebar-link-large {
+    font-size: 1.25em;
+}
+
+.post-thumbnail {
+    position: relative;
+}
+.post-thumbnail .socialsharebar {
+    position: absolute;
+    bottom: 0.5em;
+    left: 0.5em;
+    margin: 0;
+}
+
+.entry-title .socialsharebar    {
+    font-size: 1.5rem;
+}
+
+.socialsharebar.socialsharebar-float {
+    position: fixed;
+    bottom: .25em;
+    left: .25em;
+    z-index: 99;
+}
+.socialsharebar.socialsharebar-float a {
+    display: block;
+    margin: .5em 0;
+}
